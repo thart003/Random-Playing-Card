@@ -1,1 +1,72 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #339900;
+  font-family: verdana;
+  font-size: x-small;
+}
+
+span {
+  display: block;
+}
+p {
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: 0em;
+}
+h3 {
+  margin-bottom: 0em;
+}
+.card {
+  width: 160px;
+  border: 0px solid black;
+  padding: 10px;
+  background: #fff;
+
+  margin: auto;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.middle {
+  font-size: 50px;
+}
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 20px;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  transform: rotate(180deg);
+  font-size: 20px;
+}
+.shadow {
+  box-shadow: 1 px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+}
+.rounded {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.small {
+  font-family: verdana;
+  font-size: xx-small;
+}
+#big {
+  font-family: verdana;
+  font-size: x-large;
+}
